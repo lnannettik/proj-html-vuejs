@@ -1,5 +1,6 @@
 <template>
-<h1>kwbjkcnwrjkcncjkw</h1>
+    <div class="green-item">get in touch</div>
+
   
 </template>
 
