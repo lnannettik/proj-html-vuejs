@@ -77,23 +77,24 @@ export default {
             span {
                 font-size: 18px;
                 letter-spacing: 5px;
-                position: relative;
+                position: absolute;
 
             }
 
             &::after {
-                content: ' ';
+                content: " ";
                 display: block;
-                position: absolute;
-                left: 307px;
-                top: 15px;
-                width: 5%;
-                height: 12%;
+                position: relative;
+                left: -29px;
+                top: -12px;
+                width: 98px;
+                height: 50px;
                 z-index: 4;
                 border-start-start-radius: 20px;
                 background-size: cover;
-                background-color: rgba(4, 131, 131, 0.6);
-                border-bottom-left-radius: 20px;            }
+                background-color: rgba(4, 131, 131, 0.3);
+                border-bottom-left-radius: 20px;
+            }
         }
 
 
