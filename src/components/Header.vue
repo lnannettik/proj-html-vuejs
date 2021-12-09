@@ -44,6 +44,7 @@ export default {
 
         .header-right {
             display: flex;
+            justify-content: flex-end;
         }
 
         .link-list {
