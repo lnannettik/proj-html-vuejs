@@ -2,13 +2,13 @@
     <div class="hero-container">
         <nav class="nav offset-lg-2 col-lg-8 d-flex">
 
-            <div class="left-side col-5">
+            <div class="left-side col-4">
 
                 <span>NEXTGEN</span>
 
             </div>
 
-            <ul class="right-side col-7 d-flex">
+            <ul class="right-side col-8 d-flex">
                 <li>Home</li>
                 <li>Services</li>
                 <li>Skills</li>
@@ -18,6 +18,13 @@
             </ul>
 
         </nav>
+
+        <div class="hero-content offset-6 col-3">
+            <h1 class="titolone">Logistics that goes further.</h1>
+            <h3 class="sottotitolo">For 20 years working with the most innovative in the field of transport.</h3>
+            <button class="green-item btn me-3">ijcjinojn</button>
+            <button class="not-green-item">ijcjinojn</button>
+        </div>
     </div>
   
 </template>
@@ -40,8 +47,9 @@ export default {
         height: 100vh;
         position: relative;
 
-        &::after {
-            content: ' ';
+
+        &::before {
+            content: ' ';    
             display: block;
             position: absolute;
             left: 0;
@@ -62,7 +70,7 @@ export default {
         color: #edf4ec;
 
         * {
-            z-index: 2;
+            z-index: 1;
         }
 
         li {
@@ -116,6 +124,19 @@ export default {
         }
 
     
+    }
+
+    .hero-content {
+        position: absolute;
+        top: 30%;
+
+
+        .titolone {
+            color: white;
+            font-size: 4rem;
+            font-weight: 900;
+        }
+
     }
 
 

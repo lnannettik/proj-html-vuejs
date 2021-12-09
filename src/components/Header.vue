@@ -1,8 +1,8 @@
 <template>
 
     <div class="header d-flex">
-        <div class="header-container offset-lg-2 col-lg-8 d-flex align-middle">
-            <div class="header-left col-6">
+        <div class="header-container offset-md-1 offset-lg-2 col-lg-8 d-flex align-middle">
+            <div class="header-left col-md-4 col-lg-6">
                 <i class="fas fa-clock"></i> Open Hours: Mon - Sat - 9:00 - 18:00
             </div>
 
@@ -37,6 +37,10 @@ export default {
         color: #edf4ec;
         height: 3rem;
         align-items: center;
+
+        .header-left {
+            min-width: fit-content;
+        }
 
         .header-left i {
             margin: 0px 15px 0px 0px;
