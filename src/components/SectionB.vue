@@ -1,7 +1,7 @@
 <template>
     <section class="sectionB d-flex">
         <div class="left-side">bgrbs</div>
-        <div class="right-side">
+        <div class="right-side col-6">
             <!-- <img src="../assets/about-5.jpg" alt="fig"> -->
         </div>
     </section>  
@@ -26,6 +26,7 @@ export default {
         .right-side {
             img {
                 width: 100%;
+
             }
         }
     }

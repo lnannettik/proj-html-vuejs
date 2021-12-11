@@ -22,8 +22,8 @@
         <div class="hero-content offset-4 offset-md-2 offset-lg-5 offset-xl-6 col-6 col-md-5 col-lg-4 col-xl-4 col-xxl-3">
             <h1 class="titolone mb-5">Logistics that goes further.</h1>
             <h3 class="sottotitolo mb-5">For 20 years working with the most innovative in the field of transport.</h3>
-            <button class="green-item btn me-3">GET IN TOUCH</button>
-            <button class="not-green-item">READ MORE</button>
+            <button class="green-item btn me-3 ">GET IN TOUCH</button>
+            <button class="not-green-item ">READ MORE</button>
         </div>
     </div>
   
@@ -145,24 +145,44 @@ export default {
             font-size: 4rem;
             font-weight: 900;
 
-                &::before {
-                content: "";
-                display: block;
-                position: relative;
-                width: 20rem;
-                height: 2rem;
-                z-index: 4;
-                background-size: cover;
-                background-color: rgba(4, 131, 131, 0.3);
-                padding-left: 30px;
-                top: 5rem;
+            @media (max-width: 768px) {  
+                & {
+                    font-size: 3rem;
                 }
+            }
+                
+                &::before {
+                    content: "";
+                    display: block;
+                    position: relative;
+                    width: 18rem;
+                    height: 2rem;
+                    z-index: 4;
+                    background-size: cover;
+                    background-color: rgba(4, 131, 131, 0.3);
+                    padding-left: 30px;
+                    top: 5rem;
 
+                    @media (max-width: 768px) {  
+                        & {
+                            width: 13.4rem;
+                            top: 4rem;
+                        }
+                    }
+            
+                }
         }
 
         .sottotitolo {
             color: #bebebe;
             font-weight: 300;
+
+                @media (max-width: 768px) {  
+                    & {
+                        font-size: 1.2rem;
+                }
+            }
+                
         }
 
     }
