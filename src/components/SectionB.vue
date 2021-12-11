@@ -1,9 +1,13 @@
 <template>
     <section class="sectionB d-flex">
-        <div class="left-side">bgrbs</div>
-        <div class="right-side col-6">
-            <!-- <img src="../assets/about-5.jpg" alt="fig"> -->
-        </div>
+            <div class="left-side col-6">
+                <div class="text-container">
+                    jgvjj
+                </div>
+            </div>
+            <div class="right-side col-6">
+                <img src="../assets/about-5.jpg" alt="fig">
+            </div>
     </section>  
 </template>
 
@@ -17,7 +21,7 @@ export default {
 <style scoped lang="scss">
 
     .sectionB {
-        width: 100vw;
+        max-width: 100vw;
 
         .left-side {
             background-color: black;

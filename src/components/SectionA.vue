@@ -1,6 +1,6 @@
 <template>
     <section class="section1">
-        <div class="sec-container p-5 flex-column flex-xl-row offset-lg-2 col-lg-8">
+        <div class="sec-container py-5 flex-column flex-xl-row offset-lg-2 col-lg-8">
             <div class="text-container my-5 col-8 col-xl-4 element">
                 <h5 class="green-title mb-4">OUR BUSINESS AREAS</h5>
                 <h1 class="titolone mb-4">Logistics services</h1>
@@ -48,6 +48,8 @@ export default {
 
     .section1 {
         background-color: #e5ebe5;
+        max-width: 100vw;
+
 
         .sec-container {
             background-color: #e5ebe5;

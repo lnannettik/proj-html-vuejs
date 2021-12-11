@@ -45,6 +45,7 @@ export default {
         background-position: center;
         background-size: cover;
         height: 100vh;
+        max-width: 100vw;
         position: relative;
 
 

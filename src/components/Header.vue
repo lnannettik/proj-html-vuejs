@@ -40,6 +40,7 @@ export default {
         font-size: 14px;
         font-weight: 300;
         justify-content: center;
+        max-width: 100vw;
 
         .header-container {
             justify-content: space-between;
