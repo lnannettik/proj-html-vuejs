@@ -1,11 +1,11 @@
 <template>
-<h1>erfncjownlw</h1>
+<h1>ojncvnwijcnjkwnc</h1>
   
 </template>
 
 <script>
 export default {
-    name: 'Section6',
+    name: 'Section-C',
 
 }
 </script>

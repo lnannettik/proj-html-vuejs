@@ -1,15 +1,15 @@
 <template>
 
     <div class="header d-flex">
-        <div class="header-container offset-md-1 offset-lg-2 col-lg-8 d-flex align-middle">
-            <div class="header-left col-md-4 col-lg-6">
+        <div class="header-container d-flex align-middle">
+            <div class="header-left">
                 <i class="fas fa-clock"></i> Open Hours: Mon - Sat - 9:00 - 18:00
             </div>
 
-            <div class="header-right col-6">
+            <div class="header-right">
                 <ul class="link-list">
-                    <li><i class="fas fa-phone"></i> + 1 (305) 1234-5678</li>
-                    <li><i class="fas fa-envelope"></i> hello@example.com</li>
+                    <li><i class="fas fa-phone"></i> <span class="d-none d-xxl-inline-block">+ 1 (305) 1234-5678</span></li>
+                    <li><i class="fas fa-envelope"></i> <span class="d-none d-xxl-inline-block">hello@example.com</span></li>
                     <li><i class="fab fa-facebook-f"></i></li>
                     <li><i class="fab fa-twitter"></i></li>
                     <li><i class="fab fa-linkedin-in"></i></li>
@@ -37,6 +37,14 @@ export default {
         color: #edf4ec;
         height: 3rem;
         align-items: center;
+        font-size: 14px;
+        font-weight: 300;
+        justify-content: center;
+
+        .header-container {
+            justify-content: space-between;
+            width: 70%;
+        }
 
         .header-left {
             min-width: fit-content;

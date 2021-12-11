@@ -1,10 +1,10 @@
 <template>
     <div class="hero-container">
-        <nav class="nav offset-lg-2 col-lg-8 d-flex">
+        <nav class="nav offset-md-1 offset-lg-2 col-lg-8 d-flex">
 
             <div class="left-side col-4">
 
-                <span>NEXTGEN</span>
+                <span>GEN</span>
 
             </div>
 
@@ -19,11 +19,11 @@
 
         </nav>
 
-        <div class="hero-content offset-6 col-3">
-            <h1 class="titolone">Logistics that goes further.</h1>
-            <h3 class="sottotitolo">For 20 years working with the most innovative in the field of transport.</h3>
-            <button class="green-item btn me-3">ijcjinojn</button>
-            <button class="not-green-item">ijcjinojn</button>
+        <div class="hero-content offset-md-1 offset-md-2 offset-lg-4 offset-xl-6 col-md-5 col-lg-4 col-xl-4 col-xxl-3">
+            <h1 class="titolone mb-5">Logistics that goes further.</h1>
+            <h3 class="sottotitolo mb-5">For 20 years working with the most innovative in the field of transport.</h3>
+            <button class="green-item btn me-3">GET IN TOUCH</button>
+            <button class="not-green-item">READ MORE</button>
         </div>
     </div>
   
@@ -66,7 +66,7 @@ export default {
     nav {
         height: 50px;
         padding: 20px;
-        font-weight: 700;
+        font-weight: 500;
         color: #edf4ec;
 
         * {
@@ -84,24 +84,33 @@ export default {
 
             span {
                 font-size: 18px;
+                font-weight: 700;
                 letter-spacing: 5px;
                 position: absolute;
+                margin-left: 54px;
+
 
             }
 
             &::after {
-                content: " ";
-                display: block;
+                content: "NEX";
+                font-size: 18px;
+                font-weight: 700;
+                letter-spacing: 5px;
+                display: flex;
                 position: relative;
-                left: -29px;
+                left: -30px;
                 top: -12px;
-                width: 98px;
+                width: 82px;
                 height: 50px;
                 z-index: 4;
-                border-start-start-radius: 20px;
+                border-start-start-radius: 25px;
                 background-size: cover;
                 background-color: rgba(4, 131, 131, 0.3);
-                border-bottom-left-radius: 20px;
+                border-bottom-left-radius: 25px;
+                align-items: center;
+                padding-left: 30px;
+                color: rgba(103, 220, 220, 0.938)
             }
         }
 
@@ -128,13 +137,32 @@ export default {
 
     .hero-content {
         position: absolute;
-        top: 30%;
+        top: 20%;
 
 
         .titolone {
             color: white;
             font-size: 4rem;
             font-weight: 900;
+
+                &::before {
+                content: "";
+                display: block;
+                position: relative;
+                width: 20rem;
+                height: 2rem;
+                z-index: 4;
+                background-size: cover;
+                background-color: rgba(4, 131, 131, 0.3);
+                padding-left: 30px;
+                top: 5rem;
+                }
+
+        }
+
+        .sottotitolo {
+            color: #bebebe;
+            font-weight: 300;
         }
 
     }

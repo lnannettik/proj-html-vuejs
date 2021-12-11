@@ -1,11 +1,11 @@
 <template>
-<h1>khibfbckjwnckjwcm cml </h1>
+<h1>erfncjownlw</h1>
   
 </template>
 
 <script>
 export default {
-    name: 'Section2',
+    name: 'SectionF',
 
 }
 </script>
