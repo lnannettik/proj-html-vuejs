@@ -1,7 +1,7 @@
 <template>
     <section class="section1">
-        <div class="sec-container offset-2 col-lg-8">
-            <div class="text-container col-4 element">
+        <div class="sec-container p-5 flex-column flex-xl-row offset-lg-2 col-lg-8">
+            <div class="text-container my-5 col-8 col-xl-4 element">
                 <h5 class="green-title mb-4">OUR BUSINESS AREAS</h5>
                 <h1 class="titolone mb-4">Logistics services</h1>
                 <h5 class="text mb-4">We are leaders in providing logistics services with a set of cutting edge technologies and a team of experienced and renowned professional</h5>
@@ -11,16 +11,20 @@
                 <button class="green-item btn">read more</button>
             </div>
 
-            <div class="card col-4 element">
-                <img class="mb-3" src="../assets/gallery-3.jpg" alt="fig">
-                <h3 class="card-titolo">Technology</h3>
-                <h5 class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur necessitatibus, </h5>
+            <div class="card my-5 col-8 col-xl-4 element">
+                <div class="img-container mb-4">
+                    <img src="../assets/gallery-3.jpg" alt="fig">
+                </div>
+                <h4 class="card-titolo mb-4">Technology</h4>
+                <h5 class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur necessitatibus. </h5>
             </div>
 
-            <div class="card col-4 element">
-                <img class="mb-3" src="../assets/gallery-3.jpg" alt="fig">
-                <h3 class="card-titolo">Technology</h3>
-                <h5 class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur necessitatibus, </h5>
+            <div class="card my-5 col-8 col-xl-4 element">
+                <div class="img-container mb-4">
+                    <img src="../assets/gallery-5.jpg" alt="fig">
+                </div>
+                <h4 class="card-titolo mb-4">Technology</h4>
+                <h5 class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur necessitatibus. </h5>
             </div>
             
         </div>
@@ -51,27 +55,33 @@ export default {
             align-items: center;
 
             .element {
-                width: 30%;
-                margin: 10% 1%;
-                padding: 3rem;
+                margin-right: 1rem;
+                padding: 1rem;
+
+
 
                 .green-title {
                     color: #4db2b0;
-                    font-weight: 500;
-                    font-size: 1rem;
+                    font-weight: 600;
+                    font-size: 0.8rem;
                 }
 
                 .titolone {
-                    font-size: 3rem;
-                    font-weight: 700;
+                    font-size: 2.6rem;
+                    font-weight: 800;
                 }
 
                 .text {
-                    font-size: 1rem;
+                    font-size: 0.9rem;
                     font-weight: 200;
                 }
 
+                .tags {
+                    font-size: 0.9rem;
+                }
+
                 .btn {
+                    display: block;
                     outline: none;
                     margin-top: 25px;
                 
@@ -83,15 +93,20 @@ export default {
 
             .card {
                 border-radius: 1rem;
-                padding: 3rem 4rem;
+                padding: 2.5rem 3.5rem 3rem;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
 
                 .titolo {
-                    font-size: 1.6rem;
+                    font-size: 1.3rem;
                     font-weight: 500;
                 }
 
                 .card-text {
-                    font-size: 1rem;
+                    font-size: 0.9rem;
                     font-weight: 200;
                 }
 

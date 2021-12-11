@@ -1,7 +1,7 @@
 <template>
 
     <div class="header d-flex">
-        <div class="header-container d-flex align-middle">
+        <div class="header-container col-md-8 d-flex align-middle">
             <div class="header-left">
                 <i class="fas fa-clock"></i> Open Hours: Mon - Sat - 9:00 - 18:00
             </div>
@@ -43,7 +43,6 @@ export default {
 
         .header-container {
             justify-content: space-between;
-            width: 70%;
         }
 
         .header-left {
