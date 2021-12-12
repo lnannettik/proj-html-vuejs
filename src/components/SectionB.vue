@@ -1,14 +1,16 @@
 <template>
     <section class="sectionB d-flex">
             <div class="left-side col-6">
-                <div class="text-container offset-4 col-8 pe-5 my-5">
+                <div class="text-container offset-4 col-8 p-5 my-5">
                     <div class="come-sopra mb-5">
                         <h5 class="green-title mb-4">ABOUT THE NETWORK</h5>
                         <h1 class="titolone mb-4">The Company</h1>
-                        <h5 class="text mb-4">With all this experience and capability comes an unrivalled commitment to customers service.</h5>
+                        <h5 class="text mb-4">With all this experience and capability, comes an unrivalled commitment to customers service.</h5>
                     </div>
                     <div class="circle-container d-flex mb-5">
-                        <div class="circle">evv</div>
+                        <div class="circle">
+                            <span class="number">0</span><span>%</span>
+                        </div>
                         <div class="side-div">
                             <div class="title">Leadership</div>
                             <div class="subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
@@ -16,18 +18,22 @@
                     </div>
                     
                     <div class="circle-container d-flex mb-5">
-                        <div class="circle">evv</div>
+                        <div class="circle">
+                            <span class="number">0</span><span>%</span>
+                        </div>
                         <div class="side-div">
                             <div class="title">Psycology</div>
-                            <div class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                            <div class="subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
                         </div>
                     </div>
                     
                     <div class="circle-container d-flex mb-5">
-                        <div class="circle">evv</div>
+                        <div class="circle">
+                            <span class="number">0</span><span>%</span>
+                        </div>
                         <div class="side-div">
                             <div class="title">Flexibility</div>
-                            <div class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                            <div class="subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
                         </div>
                     </div>
                 </div>
@@ -73,12 +79,19 @@ export default {
                 .circle-container {
 
                     .circle {
-                        width: 5rem;
-                        height: 5rem;
-                        background-color: red;
+                        width: 90px;
+                        height: 85px;
                         border-radius: 50px;
                         border: 10px solid green;
                         margin-right: 2rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    .number {
+                        font-size: 1.8rem;
+                        font-weight: 700;
                     }
 
                     .side-div {
