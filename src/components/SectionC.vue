@@ -40,26 +40,32 @@ export default {
         height: 280px;
         color: #737373;
 
+        .sec-container {
+
+            height: 100%;
+
+            .img-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                color: #737373;
+    
+    
+                .less {
+                    color: #737373;
+                    width: 2.5rem;
+                }
+    
+                .center {
+                    width: 6rem;
+                }
+    
+            }
+        }
+
         
 
-        .img-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-            color: #737373;
-
-
-            .less {
-                color: #737373;
-                width: 2.5rem;
-            }
-
-            .center {
-                width: 6rem;
-            }
-
-        }
     }
 
 </style>
