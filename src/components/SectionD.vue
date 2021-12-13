@@ -11,8 +11,8 @@
             </div>
         </div>
             
-        <div class="right py-5 col-6">
-            <button class="green-item btn">read more</button>
+        <div class="right pt-5 col-6">
+            <button class="green-item btn">see all</button>
         </div>
         
     </div>
