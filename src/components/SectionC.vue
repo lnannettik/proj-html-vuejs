@@ -2,22 +2,22 @@
     <section class="sectionC">
 
         <div class="sec-container d-flex offset-2 col-8">
-            <div class="img-container col-2">
+            <div class="img-container col-6 col-md-4 col-lg-2">
                 <img class="less" src="../assets/logo-5.png" alt="less">
             </div>
-            <div class="img-container col-2">
+            <div class="img-container col-6 col-md-4 col-lg-2">
                 <img class="center" src="../assets/logo-1.png" alt="less">
             </div>
-            <div class="img-container col-2">
+            <div class="img-container col-6 col-md-4 col-lg-2">
                 <img class="center" src="../assets/logo-2.png" alt="less">
             </div>
-            <div class="img-container col-2">
+            <div class="img-container col-6 col-md-4 col-lg-2">
                 <img class="center" src="../assets/logo-3.png" alt="less">
             </div>
-            <div class="img-container col-2">
+            <div class="img-container col-6 col-md-4 col-lg-2">
                 <img class="center" src="../assets/logo-4.png" alt="less">
             </div>
-            <div class="img-container col-2 less">
+            <div class="img-container col-6 col-md-4 col-lg-2 less">
                 <img class="less" src="../assets/logo-5.png" alt="less">
             </div>
         </div>
@@ -37,18 +37,15 @@ export default {
 
     .sectionC {
         background: #eef4ed;
-        height: 280px;
         color: #737373;
 
         .sec-container {
-
-            height: 100%;
 
             .img-container {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                height: 100%;
+                height: 200px;
                 color: #737373;
     
     
