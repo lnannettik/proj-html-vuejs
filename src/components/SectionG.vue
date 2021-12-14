@@ -146,11 +146,6 @@ export default {
                     display: flex;
                 }
 
-                // span {
-                //     padding: 8px 20px;
-
-                // }
-
                 &:hover {
                     background-color: #656565;
                     color:  #dce2db;
@@ -183,11 +178,6 @@ export default {
                 &:hover {
                     display: flex;
                 }
-
-
-
-                    
-
             }
 
             .message {
