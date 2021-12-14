@@ -119,6 +119,8 @@ export default {
 
         .sotto {
 
+            position: relative;
+
             .input-space {
                 background-color: #dce2db;
                 border: none;
@@ -140,19 +142,27 @@ export default {
                 display: flex;
                 justify-content: space-between;
 
-                &:active + .info-nascosto {
-                    display: flex;
-
-                }
-
                 &:hover + .info-nascosto {
                     display: flex;
+                }
+
+                // span {
+                //     padding: 8px 20px;
+
+                // }
+
+                &:hover {
+                    background-color: #656565;
+                    color:  #dce2db;
+                    padding: 8px 20px 20px;
+
 
                 }
+
 
                 .menu {
                     color: #9a9a9a;
-                    position: relative;
+                    // position: relative;
                 }
             }
 
@@ -170,6 +180,17 @@ export default {
                 font-weight: 300;
                 color: #656565;
                 margin-left: 21rem;
+                top: 50px;
+                right: 0px;
+                transition: 30ms ease-in-out;
+
+                &:hover {
+                    display: flex;
+                }
+
+
+
+                    
 
             }
 
