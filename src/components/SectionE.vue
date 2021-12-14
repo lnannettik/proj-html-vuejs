@@ -69,12 +69,35 @@ export default {
                 color: white;
                 display: flex;
                 align-items: end;
+
+                @media (max-width: 1200px) {  
+                    & {
+                        padding: 1rem;
+                    }
+                }
+
             }
 
             span {
                 font-size: 1.4rem;
                 font-weight: 700;
                 text-align: center;
+
+
+                @media (max-width: 1200px) {  
+                    & {
+                        font-size: 1rem;
+                        font-weight: 500;
+                    }
+                }
+
+                @media (max-width: 992px) {  
+                    & {
+                        font-size: 0.8rem;
+                        font-weight: 500;
+                    }
+                }
+
             }
 
         }
