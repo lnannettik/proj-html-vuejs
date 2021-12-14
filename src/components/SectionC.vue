@@ -40,6 +40,8 @@ export default {
         color: #737373;
 
         .sec-container {
+            flex-wrap: wrap;
+
 
             .img-container {
                 display: flex;
