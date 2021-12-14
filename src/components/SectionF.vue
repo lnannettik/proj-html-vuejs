@@ -13,7 +13,7 @@
                     </div>
                 </div>
 
-                <div class="right col-5 d-flex">
+                <div class="right col-5 ms-5 d-flex">
                     <input class="my-4" type="text" placeholder="Name">
                     <input type="text" placeholder="Email">
                     <button class="green-item btn">subscribe</button>

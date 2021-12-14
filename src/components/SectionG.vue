@@ -155,14 +155,10 @@ export default {
                     background-color: #656565;
                     color:  #dce2db;
                     padding: 8px 20px 20px;
-
-
                 }
-
 
                 .menu {
                     color: #9a9a9a;
-                    // position: relative;
                 }
             }
 
