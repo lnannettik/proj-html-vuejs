@@ -67,6 +67,9 @@
                 </ul>
 
             </div>
+            <div class="container-btn">
+                <a href="#home"><i class="fas fa-chevron-up"></i></a>
+            </div>
         </div>
     </div>
     
@@ -94,6 +97,7 @@ export default {
 
 
     .section-container {
+        position: relative;
 
 
 
@@ -141,13 +145,13 @@ export default {
 
             .not-green-item {
                 color: white;
-                padding: 0px 25px;
-                line-height: 1;
+
             }
 
             .contact {
 
                 align-items: center;
+                height: 1rem;
 
                 .icon-container {
                     display: flex;
@@ -202,10 +206,23 @@ export default {
             flex-wrap: wrap;
         }
 
+        .container-btn {
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // position: fixed;
+            position: absolute;
+            bottom: 10px;
+            right: 80px;
 
-
-
-
+            a {
+                color: black;
+            }
+        }
 
     }
 }

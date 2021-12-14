@@ -22,8 +22,8 @@
         <div class="hero-content offset-4 offset-md-2 offset-lg-5 offset-xl-6 col-6 col-md-5 col-lg-4 col-xl-4 col-xxl-3">
             <h1 class="titolone mb-5">Logistics that goes further.</h1>
             <h3 class="sottotitolo mb-5">For 20 years working with the most innovative in the field of transport.</h3>
-            <button class="green-item btn me-3 ">GET IN TOUCH</button>
-            <button class="not-green-item ">READ MORE</button>
+            <button class="green-item btn m-3 ms-0">GET IN TOUCH</button>
+            <button class="not-green-item">READ MORE</button>
         </div>
     </div>
   
@@ -44,7 +44,7 @@ export default {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 100vh;
+        min-height: 100vh;
         max-width: 100vw;
         position: relative;
 
@@ -184,6 +184,10 @@ export default {
                 }
             }
                 
+        }
+
+        .button {
+            margin: 0;
         }
 
     }
